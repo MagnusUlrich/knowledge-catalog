@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "../../build/ts/kcmd",
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
